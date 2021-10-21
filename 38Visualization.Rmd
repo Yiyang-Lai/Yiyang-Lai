@@ -140,6 +140,7 @@ $$\frac{∂C_E(v_i)}{∂t_j}=\frac{∂f}{∂M}\frac{∂M}{∂t_j}$$
 
 # **四、代码实现**
 ```{r}
+#Betweenness Centrality 中介中心性
 library(igraph)
 Betweenness<-function()
 {
@@ -151,6 +152,7 @@ Betweenness<-function()
 ```
 
 ```{r}
+#Closeness Centrality 接近中心性
 library(igraph)
 Closeness<-function()
 {
@@ -162,6 +164,7 @@ Closeness<-function()
 ```
 
 ```{r}
+#Degree Centrality 度中心性
 library(igraph)
 Degree<-function()
 {
